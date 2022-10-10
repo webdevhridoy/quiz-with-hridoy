@@ -5,10 +5,10 @@ import { CartesianGrid, Line, LineChart, XAxis, YAxis, Tooltip } from 'recharts'
 const Statistics = () => {
 
     const data = [
-        { name: 'React', uv: 8, pv: 2400, amt: 2400 },
-        { name: 'JavaScript', uv: 400, pv: 2400, amt: 2400 },
-        { name: 'CSS', uv: 9, pv: 2400, amt: 2400 },
-        { name: 'Git', uv: 8, pv: 2400, amt: 2400 }
+        { name: 'React', uv: 8, },
+        { name: 'JavaScript', uv: 8 },
+        { name: 'CSS', uv: 9 },
+        { name: 'Git', uv: 8 }
     ];
     return (
         <div className=' flex justify-center items-center h-screen'>
