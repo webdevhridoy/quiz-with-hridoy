@@ -1,27 +1,37 @@
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Swal from 'sweetalert2';
+
 
 const Question = ({ ques }) => {
-    // console.log(ques);
+    console.log(ques);
     const { question, options, correctAnswer } = ques;
 
     const handleQuizs = (e) => {
         if (e === correctAnswer) {
-            alert('right');
+            Swal.fire(
+                'Good job!',
+                'You selected the right one!'
+            );
         } else {
-            alert('false');
+            Swal.fire('false');
         }
     };
+
+    const notify = () => toast(`Your Correct Ans: ${correctAnswer}`);
 
     return (
         <div>
             <div className='m-10'>
                 <div className='flex justify-center items-center'>
                     <h2 className='font-semibold text-1xl mb-2 mx-2'>{question}</h2>
-                    <button><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
+                    <button onClick={notify}><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
+                    <ToastContainer />
                 </div>
-                <div>
+                <div className='grid grid-cols-2 gap-5'>
                     {
                         options.map((opt, index) =>
                             <label className='flex justify-center items-center'>
