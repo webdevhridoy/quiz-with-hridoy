@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Quiz = ({ quizs }) => {
+    console.log(quizs);
     const { name, logo, total } = quizs;
 
     const navigate = useNavigate();
