@@ -1,17 +1,17 @@
 import logo from '../../logo.png';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <nav className='py-8 flex justify-between items-center px-5 shadow-lg'>
             <div>
-                <img className='w-64 h-auto' src={logo} alt="" />
+                <Link to='/home'><img className='w-64 h-auto' src={logo} alt="" /></Link>
             </div>
             <div>
-                <Link className='mx-2' to='/home'>Home</Link>
-                <Link className='mx-2' to='/statistics'>Statistics</Link>
-                <Link className='mx-2' to='/blogs'>Blogs</Link>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/home'>Home</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/statistics'>Statistics</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/blogs'>Blogs</NavLink>
             </div>
         </nav>
     );

@@ -26,15 +26,15 @@ const Question = ({ ques }) => {
     return (
         <div>
             <div className='m-10'>
-                <div className='flex justify-center items-center'>
-                    <h2 className='font-semibold text-1xl mb-2 mx-2'>{question}</h2>
+                <div className='flex justify-center md:justify-between items-center'>
+                    <h2 className='font-semibold text-2xl mb-2 mx-2 py-2'>{question}</h2>
                     <button onClick={notify}><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
                     <ToastContainer />
                 </div>
                 <div className='grid grid-cols-2 gap-5'>
                     {
                         options.map((opt, index) =>
-                            <label className='flex justify-center items-center'>
+                            <label className='flex justify-center items-center bg-violet-100 hover:bg-violet-300 p-10 text-xl'>
                                 <input type="radio"
                                     name='quiz'
                                     value={opt.value}
