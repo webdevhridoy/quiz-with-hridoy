@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Error = () => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center items-center h-screen'>
             <div>
                 <h2 className='text-9xl font-semibold'>4<span className='text-violet-700'>0</span>4</h2>
                 <p className='text-5xl font-semibold my-5'>Oops! Page not found!</p>
