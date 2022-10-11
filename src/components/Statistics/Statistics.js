@@ -11,7 +11,7 @@ const Statistics = () => {
         { name: 'Git', total: 8 }
     ];
     return (
-        <div className='my-32'>
+        <div className='mt-32 mb-60'>
             <div>
                 <h2 className=' text-2xl md:text-3xl mb-5 font-semibold underline'>Check the quizs graph here</h2>
             </div>
