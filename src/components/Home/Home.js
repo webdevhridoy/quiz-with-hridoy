@@ -15,7 +15,7 @@ const Home = () => {
                     <Link className='bg-violet-700 px-10 py-3 rounded-2xl text-white hover:bg-white hover:text-violet-700 border-2 duration-300 mt-6 inline-block' to='/blogs'><button>Read Our Blogs</button></Link>
                 </div>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 bg-gray-100 gap-10 py-20'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 bg-gray-100 gap-10 py-20'>
                 {
                     newQuizs.map(quizs =>
                         <Quiz
