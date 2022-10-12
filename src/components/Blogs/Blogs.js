@@ -10,10 +10,10 @@ const Blogs = () => {
                 <h2 className='text-5xl font-semibold text-white'>Question and Answer</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 m-7'>
-                <div className='col-span-1'>
+                <div className='col-span-1 py-5 md:py-0'>
                     <img className='w-96 mx-auto' src={react} alt="" />
                 </div>
-                <div className=' text-center md:text-left col-span-3 m-5'>
+                <div className=' text-left col-span-3 m-0 md:m-5'>
                     <h2 className='text-2xl md:text-3xl font-semibold mb-3'>What is the purpose of react-router?</h2>
                     <p className='text-xl'>
                         <strong>Answer: </strong>
@@ -29,14 +29,14 @@ const Blogs = () => {
                 <hr className='border-2 w-80 mx-auto' />
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 m-7'>
-                <div className=' text-center md:text-left col-span-3 m-5'>
+                <div className=' text-left col-span-3 m-0 md:m-5'>
                     <h2 className='text-2xl md:text-3xl font-semibold mb-3'>How does context API work?</h2>
                     <p className='text-xl'>
                         <strong>Answer: </strong>
                         Despite React’s popularity, one of the biggest obstacles developers face when working with the library is components re-rendering excessively, slowing down performance, and harming readability. Component re-rendering is especially damaging when developers need components to communicate with each other in a process known as prop drilling.
                     </p>
                 </div>
-                <div className='col-span-1'>
+                <div className='col-span-1 py-5 md:py-0'>
                     <img className='w-96 mx-auto' src={context} alt="" />
                 </div>
             </div>
@@ -44,10 +44,10 @@ const Blogs = () => {
                 <hr className='border-2 w-80 mx-auto' />
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 m-7'>
-                <div className='col-span-1'>
+                <div className='col-span-1 py-5 md:py-0'>
                     <img className='w-96 mx-auto' src={href} alt="" />
                 </div>
-                <div className=' text-center md:text-left col-span-3 m-5'>
+                <div className=' text-left col-span-3 m-0 md:m-5'>
                     <h2 className='text-2xl md:text-3xl font-semibold mb-3'>Explain about Use href hooks?</h2>
                     <p className='text-xl'>
                         <strong>Answer: </strong>

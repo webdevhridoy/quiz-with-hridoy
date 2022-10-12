@@ -20,7 +20,7 @@ I have used following technology for the project:
 
 If you want to check live version using your computer, tab and mobiles then visit now:
 
-# project live link:
+# project live link: https://quiz-with-hridoy.netlify.app/
 
 # Getting Started with Create React App
 
