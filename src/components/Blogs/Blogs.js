@@ -36,7 +36,7 @@ const Blogs = () => {
                         Despite React’s popularity, one of the biggest obstacles developers face when working with the library is components re-rendering excessively, slowing down performance, and harming readability. Component re-rendering is especially damaging when developers need components to communicate with each other in a process known as prop drilling.
                     </p>
                 </div>
-                <div className='col-span-1 py-5 md:py-0'>
+                <div className='col-span-1 py-5 md:py-0 order-1 md:order-2'>
                     <img className='w-96 mx-auto' src={context} alt="" />
                 </div>
             </div>

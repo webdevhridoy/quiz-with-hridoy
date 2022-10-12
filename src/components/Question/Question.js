@@ -7,7 +7,6 @@ import Swal from 'sweetalert2';
 
 
 const Question = ({ ques }) => {
-    console.log(ques);
     const { question, options, correctAnswer } = ques;
 
     const handleQuizs = (e) => {
