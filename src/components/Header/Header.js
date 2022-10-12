@@ -9,9 +9,9 @@ const Header = () => {
                 <Link to='/home'><img className='w-64 h-auto mx-auto' src={logo} alt="" /></Link>
             </div>
             <div>
-                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/home'>Home</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/statistics'>Statistics</NavLink>
-                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl'} to='/blogs'>Blogs</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl font-semibold'} to='/home'>Home</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl font-semibold'} to='/statistics'>Statistics</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'text-blue-900 font-semibold mr-5 text-2xl' : 'mr-5 text-2xl font-semibold'} to='/blogs'>Blogs</NavLink>
             </div>
         </nav>
     );

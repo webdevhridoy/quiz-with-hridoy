@@ -26,10 +26,12 @@ const Question = ({ ques }) => {
     return (
         <div>
             <div className='m-10'>
-                <div className='flex justify-center md:justify-between items-center'>
+                <div className='flex flex-col md:flex-row justify-between items-center py-5'>
                     <h2 className='font-semibold text-2xl mb-2 mx-2 py-2'>{question}</h2>
-                    <button onClick={notify}><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
-                    <ToastContainer />
+                    <span>
+                        <button onClick={notify}><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
+                        <ToastContainer />
+                    </span>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {

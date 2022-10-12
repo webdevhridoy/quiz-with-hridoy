@@ -7,7 +7,7 @@ const Blogs = () => {
     return (
         <div>
             <div className='bg-violet-700 flex justify-center items-center py-28 md:py-40'>
-                <h2 className='text-5xl font-semibold text-white'>Our Blogs</h2>
+                <h2 className='text-5xl font-semibold text-white'>Question and Answer</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 m-7'>
                 <div className='col-span-1'>

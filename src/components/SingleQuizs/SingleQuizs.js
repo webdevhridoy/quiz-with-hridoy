@@ -9,8 +9,8 @@ const SingleQuizs = () => {
 
     return (
         <div>
-            <div className='my-20'>
-                <h2 className='text-3xl'>Quiz of <span className='text-violet-700 font-semibold'>{name}</span></h2>
+            <div className='my-20 bg-violet-700 flex justify-center items-center py-28 md:py-40'>
+                <h2 className='text-3xl text-white underline'>Quiz of <span className=' font-semibold'>{name}</span></h2>
             </div>
             <div>
                 {
