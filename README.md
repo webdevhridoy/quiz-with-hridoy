@@ -1,3 +1,27 @@
+# This project is made for only Assignment-9 of pHero Batch-6 where project name is: Quiz With Hridoy.
+
+I have used following technology for the project:
+"name": "quiz-with-hridoy",
+"version": "0.1.0",
+"@fortawesome/fontawesome-svg-core": "^6.2.0",
+"@fortawesome/free-solid-svg-icons": "^6.2.0",
+"@fortawesome/react-fontawesome": "^0.2.0",
+"@testing-library/jest-dom": "^5.16.5",
+"@testing-library/react": "^13.4.0",
+"@testing-library/user-event": "^13.5.0",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-router-dom": "^6.4.2",
+"react-scripts": "5.0.1",
+"react-toastify": "^9.0.8",
+"recharts": "^2.1.14",
+"sweetalert2": "^11.5.0",
+"web-vitals": "^2.1.4"
+
+If you want to check live version using your computer, tab and mobiles then visit now:
+
+# project live link:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
