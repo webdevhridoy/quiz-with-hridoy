@@ -31,7 +31,7 @@ const Question = ({ ques }) => {
                     <button onClick={notify}><FontAwesomeIcon icon={faEye}>{correctAnswer}</FontAwesomeIcon></button>
                     <ToastContainer />
                 </div>
-                <div className='grid grid-cols-2 gap-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {
                         options.map((opt, index) =>
                             <label className='flex justify-center items-center bg-violet-100 hover:bg-violet-300 p-10 text-xl'>
